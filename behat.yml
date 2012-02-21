@@ -1,0 +1,8 @@
+default:
+  context:
+    parameters:
+      base_url: http://twitter.github.com/
+      browser: firefox
+      javascript_session: webdriver
+      webdriver:
+        host: http://browser:4444/wd/hub
